@@ -1,0 +1,29 @@
+# Ignore intellij project files and directories
+*.pid
+template.iml
+*.iml
+*.ipr
+*.iws
+*.ids
+.idea/
+*.log
+.shelf/
+
+# Ignore compiler output
+target/
+out/
+classes/
+
+# Ignore build files
+build/
+build_tmp/
+
+# Ignore ssl cert files
+*.crt
+*.pem
+
+.gradle/
+gradle-common/
+
+tcserver/
+rundeck_tmp/
