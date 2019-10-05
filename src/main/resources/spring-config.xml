@@ -6,6 +6,27 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <bean id="messageService" class="com.globant.spring.a.ioc.MessageService"></bean>
+    <bean id="messageService" class="com.globant.spring.a.ioc.MessageService"/>
 
+    <bean id="messageServiceWithSimpleArg" class="com.globant.spring.b.beanoverview.MessageServiceWithConstructor">
+        <constructor-arg type="java.lang.String" value="Beer"/>
+    </bean>
+
+    <bean id="messageServiceWithComplexArg" class="com.globant.spring.b.beanoverview.MessageServiceWithConstructor">
+        <constructor-arg ref="messageService" />
+    </bean>
+
+    <!-- Setter -->
+    <bean id="exampleBean" class="com.globant.spring.b.beanoverview.ExampleBean">
+        <!-- setter injection using the nested ref element -->
+        <property name="beanOne">
+            <ref bean="anotherExampleBean"/>
+        </property>
+        <!-- setter injection using the neater ref attribute -->
+        <property name="beanTwo" ref="yetAnotherBean"/>
+        <property name="integerProperty" value="9"/>
+    </bean>
+
+    <bean id="anotherExampleBean" class="com.globant.spring.b.beanoverview.AnotherBean"/>
+    <bean id="yetAnotherBean" class="com.globant.spring.b.beanoverview.YetAnotherBean"/>
 </beans>
