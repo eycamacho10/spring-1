@@ -4,8 +4,8 @@ The idea is to learn:
 
  - [x] **Spring IoC - Container Overview**
  ```
- :heavy_check_mark: Using XML Config Spring
- :heavy_check_mark: Create the MessageService with the word 'new'
+ `:heavy_check_mark:` Using XML Config Spring
+ `:heavy_check_mark:` Create the MessageService with the word 'new'
  :heavy_check_mark: Create the MessageService with Injection using ApplicationContext of Spring
  :heavy_check_mark: Create test using XML Config Spring to inject objects
  ```
