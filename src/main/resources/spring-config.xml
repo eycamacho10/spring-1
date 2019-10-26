@@ -29,4 +29,9 @@
 
     <bean id="anotherExampleBean" class="com.globant.spring.b.beanoverview.AnotherBean"/>
     <bean id="yetAnotherBean" class="com.globant.spring.b.beanoverview.YetAnotherBean"/>
+
+    <!-- depends-on -->
+    <bean id="firstBean" class="com.globant.spring.c.dependson.FirstBean"/>
+    <bean id="secondBean" class="com.globant.spring.c.dependson.SecondBean"/>
+    <bean id="dependsOnBean" class="com.globant.spring.c.dependson.DependsOnBean" depends-on="firstBean, secondBean"/>
 </beans>
