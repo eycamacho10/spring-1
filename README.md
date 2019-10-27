@@ -17,7 +17,7 @@ The idea is to learn:
  ✅ Import the spring-config.xml file into the spring-test-config.xml file
  ✅ Use IoC with setter based
  ✅ Use depends-on
- ❌ Lazy-initialized Beans
+ ✅ Lazy-initialized Beans
  ```
  - [ ] **Bean Scopes**
  ```
