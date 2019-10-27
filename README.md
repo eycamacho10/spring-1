@@ -21,22 +21,51 @@ The idea is to learn:
  ```
  - [ ] **Bean Scopes**
  ```
-
-  ```
+ ❌ The Singleton Scope
+ ❌ The Prototype Scope
+ ❌ Initial Web Configuration
+ ❌ Request scope
+ ❌ Session Scope
+ ❌ Application Scope
+ ❌ Creating a Custom Scope
+ ❌ Using a Custom Scope
+ ```
  - [ ] **Customizing the Nature of a Bean**
  ```
-
-  ```
- - [ ] **Bean Definition Inheritance**
+ ❌ Lifecycle Callbacks
+ ❌ Initialization Callbacks
+ ❌ Destruction Callbacks
+ ❌ Default Initialization and Destroy Methods
+ ❌ Combining Lifecycle Mechanisms
+ ❌ Startup and Shutdown Callbacks
+ ❌ Shutting Down the Spring IoC Container Gracefully in Non-Web Applications
+ ❌ ApplicationContextAware and BeanNameAware
+ ❌ Other Aware Interfaces
  ```
-
-  ```
- - [ ] **Container Extension Points**
- ```
-
-  ```
  - [ ] **Annotation-based Container Configuration**
-```
-
+ ```
+ ❌ @Required
+ ❌ Using @Autowired
+ ❌ Fine-tuning Annotation-based Autowiring with @Primary
+ ❌ Fine-tuning Annotation-based Autowiring with Qualifiers
+ ❌ Using Generics as Autowiring Qualifiers
+ ❌ Using CustomAutowireConfigurer
+ ❌ Injection with @Resource
+ ❌ Using @Value
+ ❌ Using @PostConstruct and @PreDestroy
  ```
  - [ ] **Classpath Scanning and Managed Components**
+ ```
+ ```
+ - [ ] **Using JSR 330 Standard Annotations**
+ ```
+ ```
+ - [ ] **Java-based Container Configuration**
+ ```
+ ```
+ - [ ] **Environment Abstraction**
+ ```
+ ```
+ - [ ] **Additional Capabilities of the ApplicationContext**
+ ```
+ ```
