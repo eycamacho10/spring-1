@@ -38,4 +38,7 @@
     <!-- lazy-init -->
     <bean id="lazyBean" class="com.globant.spring.c.lazyinit.LazyBean" lazy-init="true"/>
     <bean id="noLazyBean" class="com.globant.spring.c.lazyinit.NoLazyBean"/>
+
+    <!-- the following is equivalent, though redundant (singleton scope is the default) -->
+    <bean id="singletonBean" class="com.globant.spring.d.singleton.SingletonBean" scope="singleton"/>
 </beans>
