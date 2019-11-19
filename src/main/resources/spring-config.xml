@@ -41,4 +41,5 @@
 
     <!-- the following is equivalent, though redundant (singleton scope is the default) -->
     <bean id="singletonBean" class="com.globant.spring.d.singleton.SingletonBean" scope="singleton"/>
+    <bean id="prototypeBean" class="com.globant.spring.d.prototype.PrototypeBean" scope="prototype"/>
 </beans>

@@ -18,7 +18,7 @@ public class SingletonTest {
     }
 
     @Test
-    public void testLazyInitBeanProcess() {
+    public void testSingletonBeanProcess() {
         singletonBean = (SingletonBean) ctx.getBean("singletonBean");
         String res = singletonBean.process();
         Assert.assertEquals("singleton bean", res);
