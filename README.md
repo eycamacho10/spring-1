@@ -21,11 +21,11 @@ The idea is to learn:
  ```
  - [ ] **Bean Scopes**
  ```
- ❌ The Singleton Scope
- ❌ The Prototype Scope
- ❌ Initial Web Configuration
- ❌ Request scope
- ❌ Session Scope
+ ✅ The Singleton Scope
+ ✅ The Prototype Scope
+ ✅ Initial Web Configuration
+ ✅ Request scope
+ ✅ Session Scope
  ❌ Application Scope
  ❌ Creating a Custom Scope
  ❌ Using a Custom Scope
