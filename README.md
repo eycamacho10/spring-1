@@ -19,16 +19,16 @@ The idea is to learn:
  ✅ Use depends-on
  ✅ Lazy-initialized Beans
  ```
- - [ ] **Bean Scopes**
+ - [x] **Bean Scopes**
  ```
  ✅ The Singleton Scope
  ✅ The Prototype Scope
  ✅ Initial Web Configuration
  ✅ Request scope
  ✅ Session Scope
- ❌ Application Scope
- ❌ Creating a Custom Scope
- ❌ Using a Custom Scope
+ ✅ Application Scope
+ ✅ Creating a Custom Scope
+ ✅ Using a Custom Scope
  ```
  - [ ] **Customizing the Nature of a Bean**
  ```
